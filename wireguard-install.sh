@@ -136,7 +136,8 @@ new_client_dns () {
 	esac
 }
 
-new_client_setup () {
+new_client_setup () 
+{
 	# Given a list of the assigned internal IPv4 addresses, obtain the lowest still
 	# available octet. Important to start looking at 2, because 1 is our gateway.
 	octet=2
